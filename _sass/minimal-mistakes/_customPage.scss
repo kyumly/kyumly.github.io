@@ -1,0 +1,98 @@
+//전체보기
+.page-2 {
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100%);
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100%);
+    padding-right: $right-sidebar-width;
+  }
+  .page__inner-wrap {
+    float: left;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+
+    .page__content,
+    .page__meta,
+    .page__share {
+      position: relative;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      clear: both;
+     font-size: 14px;
+
+    }
+  }
+}
+
+
+//하이버 링크 설정
+.breadcrumbs-2 {
+  @include clearfix;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: $sans-serif;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+
+  @include breakpoint($x-large) {
+    max-width: $x-large;
+  }
+
+  ol {
+    padding: 0;
+    list-style: none;
+    font-size: $type-size-6;
+
+    @include breakpoint($large) {
+      float: right;
+      width: calc(100%);
+    }
+
+    @include breakpoint($x-large) {
+      width: calc(100%);
+    }
+  }
+
+  li {
+    display: inline;
+  }
+
+  .current {
+    font-weight: bold;
+  }
+}
+
+.page__related-2 {
+  @include clearfix();
+  float: left;
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid $border-color;
+
+  @include breakpoint($large) {
+    float: right;
+    width: calc(100%);
+  }
+
+  @include breakpoint($x-large) {
+    width: calc(100% );
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
