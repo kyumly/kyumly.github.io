@@ -29,11 +29,11 @@
 
     @include breakpoint($large) {
       float: right;
-      width: calc(100% - #{$right-sidebar-width-narrow});
+      width: calc(100%);
     }
 
     @include breakpoint($x-large) {
-      width: calc(100% - #{$right-sidebar-width});
+      width: calc(100%);
     }
   }
 
@@ -511,6 +511,7 @@
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
+  font-size: 20px;
 
   .nav__title {
     color: #fff;
