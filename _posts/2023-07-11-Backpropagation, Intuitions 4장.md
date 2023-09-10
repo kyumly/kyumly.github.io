@@ -1,8 +1,9 @@
 ---
 layout : single-2
-title : "cs 231 5장"
+title : "cs231n 강의 노트 4장 Backpropagation, Intuitions"
+description : "Backpropagation, Intuitions"
 categories : cs231
-tag : [python, AI]
+tag : [python, AI, Note]
 toc : true
 toc_sticky : true
 author_profile : false
@@ -10,11 +11,8 @@ use_math : true
 ---
 
 
-<h1>cs231 5장 정리</h1> <br>
+<h1>cs231n 강의 노트 4장 Backpropagation, Intuitions</h1> <br>
 
-
-
-Backpropagation, Intuitions
 
 # 1. Introduction
 
@@ -602,3 +600,7 @@ In other words, we're now ready to train neural nets, and the most conceptually 
 
 -   다음 섹션에서는 신경망을 정의하기 시작하고 역전파를 통해 매개변수와 관련하여 손실 함수의 그래디언트를 효율적으로 계산할 수 있습니다. 
 - 즉, 이제 우리는 신경망을 훈련시킬 준비가 되었으며, 이 수업에서 가장 개념적으로 어려운 부분은 뒤에 있습니다! ConvNets는 작은 발걸음이 될 것입니다.
+
+
+# 10. Additional references
+- https://cs231n.github.io

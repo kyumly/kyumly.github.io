@@ -1,15 +1,16 @@
 ---
 layout : single-2
-title : "cs 231 8장"
+title : "cs231n 강의 노트 7장 Neural Networks Part 3: Learning and Evaluation"
+description : "Neural Networks Part 2: Setting up the Data and the Loss"
 categories : cs231
-tag : [python, AI]
+tag : [python, AI, Note]
 toc : true
 toc_sticky : true
 author_profile : false
 use_math : true
 ---
 
-<h1>cs231 8장 정리</h1> <br>
+<h1>Neural Networks Part 3: Learning and Evaluation 정리</h1>
 
 
 # Preview
@@ -1000,3 +1001,6 @@ Form model ensembles for extra performance<br>
 - SGD tips and tricks from Leon Bottou<br>
 - Efficient BackProp (pdf) from Yann LeCun<br>
 - Practical Recommendations for Gradient-Based Training of Deep Architectures from Yoshua Bengio<br>
+
+# 9. Additional references
+- https://cs231n.github.io

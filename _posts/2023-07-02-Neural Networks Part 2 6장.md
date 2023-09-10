@@ -1,15 +1,15 @@
 ---
 layout : single-2
-title : "cs 231 7장"
-categories : cs231
-tag : [python, AI]
+title : "cs231n 강의 노트 6장 Neural Networks Part 2: Setting up the Data and the Loss"
+description : "Neural Networks Part 2: Setting up the Data and the Loss"
+tag : [python, AI, Note]
 toc : true
 toc_sticky : true
 author_profile : false
 use_math : true
 ---
 
-<h1>cs231 7장 정리</h1> <br>
+<h1>cs231n 강의 노트 6장 Neural Networks Part 2: Setting up the Data and the Loss</h1>
 
 
 # 1.Setting up the data and the model

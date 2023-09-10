@@ -1,8 +1,9 @@
 ---
 layout : single-2
-title : "cs 231 9장"
+title : "cs231n 강의 노트 9장 Convolutional Neural Networks"
+description : "Convolutional Neural Networks"
 categories : cs231
-tag : [python, AI]
+tag : [python, AI, Note]
 toc : true
 toc_sticky : true
 author_profile : false
@@ -10,7 +11,7 @@ use_math : true
 ---
 
 
-11장 정리
+<h1>Convolutional Neural Networks 정리 </h1> 
 
 # pre. Convolutional Neural Networks (CNNs / ConvNets)
 
@@ -1582,3 +1583,6 @@ most of the memory is usually consumed by the activations
     양(KB)을 얻습니다. MB, 마지막으로 GB. 네트워크가 적합하지 않은 경우
     \"적합하게 만드는\" 일반적인 휴리스틱은 일반적으로 대부분의 메모리가
     활성화에 의해 소비되기 때문에 배치 크기를 줄이는 것입니다.
+
+# Additional references
+- https://cs231n.github.io

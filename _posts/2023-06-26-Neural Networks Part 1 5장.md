@@ -1,9 +1,9 @@
 ---
 layout : single-2
-title : "cs 231 6장"
-description : "cs231 6장 정리 진행중"
+title : "cs231n 강의 노트 5장 Neural Networks Part 1: Setting up the Architecture"
+description : "Neural Networks Part 1: Setting up the Architecture"
 categories : cs231
-tag : [python, AI]
+tag : [python, AI, Note]
 toc : true
 toc_sticky : true
 author_profile : false
@@ -11,7 +11,7 @@ use_math : true
 
 ---
 
-<h1>cs231 6장 정리</h1> <br>
+<h1>Neural Networks Part 1: Setting up the Architecture</h1>
 
 # 1. Quick intro without brain analogies
 It is possible to introduce neural networks without appealing to brain analogies. In the section on linear classification we computed scores for different visual categories given the image using the formula s=Wx
